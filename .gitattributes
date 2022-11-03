@@ -32,10 +32,11 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
-# BitBake source file
-*.bb linguist-detectable=true
-*.bb linguist-documentation=false
-*.bb linguist-language=BitBake
+# Intel Hex (Binary) source file
+# Likely not recognized by GitHub ATM, added anyways
+*.hex linguist-detectable=true
+*.hex linguist-documentation=false
+*.hex linguist-language=Intel-Hex
 # JSON (JavaScript Object Notation) source file
 *.json linguist-detectable=false
 *.json linguist-documentation=false
@@ -154,7 +155,6 @@
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
 # Roff
-# Does not need to be discluded
 # *.0 linguist-detectable=false
 # *.0 linguist-documentation=false
 # *.0 linguist-language=Roff
@@ -170,10 +170,11 @@
 # *.roff linguist-detectable=false
 # *.roff linguist-documentation=false
 # *.roff linguist-language=Roff
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 2 (2022, Tuesday, August 30th at 2:34 pm PST)
-# Line count (including blank lines and compiler line): 180
+# File type: gitattributes file (*.gitattributes)
+# File version: 3 (2022, Thursday, November 3rd at 4:06 pm PST)
+# Line count (including blank lines and compiler line): 181
 # End of script
